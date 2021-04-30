@@ -6,7 +6,7 @@ pub fn row_boundaries(panes: &[Pane]) -> Vec<(f32, f32)> {
     loop {
         let mut panes_in_row: Vec<_> = panes
             .iter()
-            .filter(|&p| (p.pos.1 - top).abs() < f32::EPSILON)
+            .filter(|&p| (p.pos.1 - top).abs() < GAP)
             .collect();
         // sort_unstable_by_key in the real thing
         panes_in_row.sort_unstable_by(|&a, &b| a.size.1.partial_cmp(&b.size.1).unwrap());
