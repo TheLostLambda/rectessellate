@@ -7,3 +7,4 @@ edition = "2018"
 
 [dependencies]
 bevy = "0.5"
+cassowary = "0.3.0"
