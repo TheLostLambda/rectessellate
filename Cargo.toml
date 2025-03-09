@@ -1,10 +1,10 @@
 [package]
-name = "layout-solving"
+name = "rectessellate"
 version = "0.1.0"
-edition = "2018"
+edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.5"
+bevy = "0.15"
 cassowary = "0.3.0"
