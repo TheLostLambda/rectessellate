@@ -2,7 +2,7 @@
 name = "rectessellate"
 version = "0.1.0"
 edition = "2024"
-licence = "AGPL-3.0-or-later"
+license = "AGPL-3.0-or-later"
 description = "WIP — DO NOT USE!"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
